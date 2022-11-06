@@ -1,0 +1,57 @@
+.hidden {
+  display: none;
+}
+
+#main-content {
+  background-image: url();
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#clock, #date, #greeting, #todo-list, #weather {
+  color:white;
+}
+
+#clock {
+  font-size: 17vh;
+}
+
+#date {
+  font-size: 3vh;
+  margin-top: -10vh;
+  margin-bottom: 5vh;
+}
+
+#login {
+  margin-bottom: 25vh;
+}
+
+#login-input, #todo-form input{
+  width: 20vh;
+  height: 4vh;
+  font-size: 2vh;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  color:white;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  color: #595656;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 1vh;
+}
